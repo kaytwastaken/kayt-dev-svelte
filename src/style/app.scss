@@ -1,0 +1,23 @@
+$black: #0a0004;
+$text: #ece7e7;
+$white: #fffaff;
+$bg: #26171c;
+    $bg-secondary: #3a2c31;
+$pink: #ba497d;
+$orange: #f26430;
+$blue: #5d9596;
+
+:global(*) {
+    margin: 0;
+    padding: 0;
+    color: $text;
+    font-family: Raleway;
+}
+
+:global(body) {
+    background-color: $bg;
+}
+
+a {
+    color: $orange
+}

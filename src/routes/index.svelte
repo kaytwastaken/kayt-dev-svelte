@@ -1,7 +1,7 @@
 <div class="container">
     <div>
         <h1>Hi! I'm Kayt!</h1>
-        <p>You might know me as diet 7up, Kaytastrophe, Kayt_was_taken, or any of my other derivative usernames, either way, you've found your way to my corner of the internet!</p>
+        <p>You might know me as diet 7up, Kaytastrophe, Kayt_was_taken, or any of my other derivative usernames, but either way, you've found your way to my corner of the internet!</p>
         <p>While you're here, why not check out <a href="/projects">what I'm up to</a>!</p>
     </div>
     <div>
@@ -13,7 +13,7 @@
         and a student who rarely studies.</p>
         <h3>What languages do you know?</h3>
         <p>I mostly work in TS and python, but I'm currently learning Svelte!</p>
-        <p>As for human languages, English is obviosuly my first language, but I'm trying to self-teach myself Dutch and Japanese! I'm also interested in learning
+        <p>As for human languages, English is obviosuly my first language, but I'm trying to <a href="https://duome.eu/kayt_was_taken">self-teach</a> myself Dutch and Japanese! I'm also interested in learning
             or learning about ASL, Ukranian, German, Cantonese, Tagalog, and Indonesian.</p>
     </div>
 

@@ -1,6 +1,6 @@
 <script>
     export let title
-    export let date
+    export let status
 </script>
   
 <svelte:head>
@@ -9,7 +9,7 @@
 
 <div class="container">
     <h1>{title}</h1>
-    <small>Published: {date}</small>
+    <small>Status: {status}</small>
     <div>
         <slot />
     </div>
@@ -53,6 +53,9 @@
             }
             :global(img) {
                 max-width: 50vw;
+            }
+            :global(h2) {
+                padding-bottom: 1rem;
             }
         }
     }

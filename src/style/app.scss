@@ -1,11 +1,28 @@
+// Colors
 $black: #0a0004;
 $text: #ece7e7;
 $white: #fffaff;
 $bg: #26171c;
     $bg-secondary: #3a2c31;
+        $bg-tertiary: #4e4146;
 $pink: #ba497d;
 $orange: #f26430;
 $blue: #5d9596;
+
+// Gradients
+$grad-logo: linear-gradient(90deg, $pink 0%, $orange 100%);
+
+@font-face {
+    font-family: Raleway;
+    font-weight: 400;
+    src: url(/static/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    font-weight: 700;
+    src: url(/static/fonts/Raleway-Bold.ttf);
+}
 
 :global(*) {
     margin: 0;
@@ -18,6 +35,23 @@ $blue: #5d9596;
     background-color: $bg;
 }
 
-a {
+:global(a) {
     color: $orange
+}
+
+:root::-webkit-scrollbar {
+    width: 10px;
+}
+
+:root::-webkit-scrollbar-track {
+    background-color: $bg-secondary;
+}
+
+:root::-webkit-scrollbar-thumb {
+    background: $black;
+    
+}
+
+:root::-webkit-scrollbar-thumb:hover {
+    background: $bg-tertiary;
 }

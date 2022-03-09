@@ -1,18 +1,28 @@
 import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
+import sveltePreprocess from 'svelte-preprocess';
+import { mdsvex } from 'mdsvex'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://github.com/sveltejs/svelte-preprocess
-	// // for more information about preprocessors
-	preprocess: preprocess({
-		scss: {
-		  prependData: `@import './src/style/app.scss';`
-		} 
-	 }),
-
 	kit: {
 		adapter: adapter()
-	}
+	},
+
+	extensions: ['.svelte', '.md'],
+	
+	preprocess: [
+		sveltePreprocess({
+			scss: {
+				prependData: `@import './src/style/app.scss';`
+			} 
+		}),
+		mdsvex({
+			extensions: ['.md'],
+			layout: {
+				blog: 'src/routes/blog/_blog.svelte'
+			}
+		})
+	],
+
 };
 export default config;

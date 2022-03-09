@@ -1,18 +1,12 @@
-<style lang="scss">
-div {
-    background-color: $bg-secondary;
-    color: $text;
-    display: flex;
-    justify-content: center;
-    * {
-        padding: 1rem;
-    }
-}
+<script>
+    import Nav from '$lib/Nav.svelte'
+    import Footer from '$lib/Footer.svelte'
+</script>
 
-</style>
+<svelte:head>
+    <title>&#060;Kayt.dev/&#062;</title>
+</svelte:head>
 
-<div>
-    <h1>This is an h1</h1>
-</div>
-
+<Nav></Nav>
 <slot></slot>
+<Footer></Footer>

@@ -47,11 +47,14 @@
         }
         li {
             list-style: none;
-            width: 50vw;
             background-color: $bg-secondary;
             padding: 1rem;
             border-radius: 10px;
             margin-bottom: 1rem;
+            width: 50vw;
+
+            @include descending-width;
+
             h1,h2,h3 {
                 padding-bottom: 0;
             }

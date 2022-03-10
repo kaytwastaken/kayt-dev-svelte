@@ -1,11 +1,21 @@
-import adapter from '@sveltejs/adapter-auto';
+// import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-node';
 import sveltePreprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			// default options are shown
+			out: 'build',
+			precompress: false,
+			env: {
+				host: '127.0.0.1',
+				port: '3000',
+				origin: 'https://kayt.dev',
+			}
+		})
 	},
 
 	extensions: ['.svelte', '.md'],

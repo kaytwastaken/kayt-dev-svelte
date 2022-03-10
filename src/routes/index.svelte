@@ -29,6 +29,8 @@
         }
         div {
             width: 50vw;
+
+            @include descending-width
         }
     }
 </style>

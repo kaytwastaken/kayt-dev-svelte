@@ -24,6 +24,7 @@ blocks
 *(in addition to single line code!)*
 
 Images 🖼️
+
 ![The side of a beige building](https://kayt.dev/static/thanks-unsplash.jpg)
 
 and probably a whole bunch of other funky md syntax that I can't be bothered to learn!

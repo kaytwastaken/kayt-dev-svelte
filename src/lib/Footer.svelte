@@ -1,9 +1,9 @@
 <footer>
     <div>
         <a href="https://pk.kayt.dev">PK-web</a>
-        <a href="https://twitter.com/kayt_was_taken">Twitter (basically inactive)</a>
+        <a href="https://twitter.com/kayt_was_taken">Twitter</a>
         <a href="https://github.com/kaytwastaken">Github</a>
-        <a href="https://instagram.com/kayt_was_taken">Instagram (also pretty much inactive)</a>
+        <a href="https://instagram.com/kayt_was_taken">Instagram</a>
     </div>
 </footer>
 
@@ -15,9 +15,11 @@
         div {
             border-top: 2px solid $bg-secondary;
             padding-top: 2rem;
-            width: 50vw;
             display: flex;
             justify-content: space-around;
+            width: 50vw;
+
+            @include descending-width
         }
     }
 </style>

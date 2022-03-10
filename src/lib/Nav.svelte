@@ -1,3 +1,18 @@
+<nav>
+    <a href="/">
+        <span>
+            <img src="/images/brown_blue_picrew.png" alt="" width="64">
+            <h1 class="header">&#060;Kayt.dev/&#062;</h1>
+        </span>
+    </a>
+    <span>
+        <a sveltekit:prefetch href="/">Home</a>
+        <!-- <a sveltekit:prefetch href="/about">About</a> -->
+        <a href="/blog">Blog</a>
+        <a sveltekit:prefetch href="/projects">Projects</a>
+    </span>
+</nav>
+
 <style lang="scss">
     nav {
         // background-color: $bg-secondary;
@@ -5,8 +20,15 @@
         color: $text;
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
         padding-bottom: 2rem;
+        align-items: center;
+        flex-direction: row;
+
+        @include xs-screen{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
         * {
             padding: .5rem;
         }
@@ -34,21 +56,12 @@
                 border-bottom: 2px solid $pink;
             }
         }
+        img {
+            display: unset;
+            @include xs-screen {
+                display: none;
+            }
+        }
     }
     
 </style>
-    
-<nav>
-    <a href="/">
-        <span>
-            <img src="/images/brown_blue_picrew.png" alt="" width="64">
-            <h1 class="header">&#060;Kayt.dev/&#062;</h1>
-        </span>
-    </a>
-    <span>
-        <a sveltekit:prefetch href="/">Home</a>
-        <!-- <a sveltekit:prefetch href="/about">About</a> -->
-        <a href="/blog">Blog</a>
-        <a sveltekit:prefetch href="/projects">Projects</a>
-    </span>
-</nav>

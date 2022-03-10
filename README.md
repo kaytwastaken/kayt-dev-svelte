@@ -1,1 +1,1 @@
-# This will eventually be migrated to [kayt-dev](https://github.com/kaytwastaken/kayt-dev)!
+# [website](https://kayt.dev) pog

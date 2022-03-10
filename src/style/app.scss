@@ -39,6 +39,9 @@ $grad-logo: linear-gradient(90deg, $pink 0%, $orange 100%);
     color: $orange
 }
 
+
+// Scrollbar atyles
+
 :root::-webkit-scrollbar {
     width: 10px;
 }
@@ -54,4 +57,51 @@ $grad-logo: linear-gradient(90deg, $pink 0%, $orange 100%);
 
 :root::-webkit-scrollbar-thumb:hover {
     background: $bg-tertiary;
+}
+
+
+
+// Media Query Mixins
+
+//Large Screen - 993 to 1170 screen size
+@mixin lg-screen{
+    @media only screen and (max-width: 1170px) {
+        @content;
+    }
+}
+
+//Medium Screen - 768 to 992 screen size
+@mixin md-screen{
+    @media only screen and (max-width: 992px) {
+        @content;
+    }
+}
+
+//Small Screen - 575 to 767 screen size
+@mixin sm-screen{
+    @media only screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+//Extra Small Screen - below 575 screen size
+@mixin xs-screen{
+    @media only screen and (max-width: 575px) {
+        @content;
+    }
+}
+
+@mixin descending-width{
+    @include lg-screen {
+        width: 60vw;
+    }
+    @include md-screen {
+        width: 70vw;
+    }
+    @include sm-screen {
+        width: 80vw;
+    }
+    @include xs-screen {
+        width: 85vw;
+    }
 }

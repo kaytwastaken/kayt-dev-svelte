@@ -23,6 +23,9 @@
         * {
             padding: 0 0 1rem 0;
             width: 50vw;
+
+            @include descending-width;
+
             :global(p) {
                 padding-bottom: 1rem;
             }
@@ -52,7 +55,9 @@
                 margin-bottom: .5rem;
             }
             :global(img) {
-                max-width: 50vw;
+                width: 50vw;
+
+                @include descending-width;
             }
             :global(h2) {
                 padding-bottom: 1rem;

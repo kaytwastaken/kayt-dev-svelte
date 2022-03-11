@@ -21,12 +21,6 @@
 
 <style lang="scss">
     .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        * {
-            padding: 0 0 1rem 0;
-        }
         div {
             width: 50vw;
 

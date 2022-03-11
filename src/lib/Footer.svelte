@@ -4,6 +4,7 @@
         <a href="https://twitter.com/kayt_was_taken">Twitter</a>
         <a href="https://github.com/kaytwastaken">Github</a>
         <a href="https://instagram.com/kayt_was_taken">Instagram</a>
+        <a href="/credits">Open source credits</a>
     </div>
 </footer>
 
@@ -14,12 +15,20 @@
         margin-bottom: 2rem;
         div {
             border-top: 2px solid $bg-secondary;
-            padding-top: 2rem;
-            display: flex;
-            justify-content: space-around;
+            padding-top: 1rem;
             width: 50vw;
+            
+            @include descending-width;
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 2em 2em;
+            justify-items: center;
 
-            @include descending-width
+            @include xs-screen {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
         }
     }
 </style>

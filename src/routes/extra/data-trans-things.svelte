@@ -20,8 +20,7 @@
 <style lang="scss">
     .container {
         display: flex;
-        height: 100vh;
-        justify-content: center;
+        margin-top: 2rem;
         
         div {
             width: 50vw;

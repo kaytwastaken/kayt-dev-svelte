@@ -1,7 +1,7 @@
 ---
 title: Guess who rewrote her blog again :D
-date: '2022-3-9'
-excerpt: 'me ✨'
+date: '2022-03-09'
+excerpt: me ✨
 ---
 
 Yeah, you're right, it's me. But hey- at least I said that I probably would when I finished my last rewrite.

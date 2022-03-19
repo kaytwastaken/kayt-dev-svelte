@@ -7,14 +7,14 @@
     <div>
         <h2>About me</h2>
         <h3>Who are you?</h3>
-        <p>I'm a student 🇺🇸! My pronouns are she/they 🏳️‍⚧️, and I have way too many hobbies.</p>
+        <p>I'm a student! My pronouns are she/they 🏳️‍⚧️, and I have way too many hobbies.</p>
         <h3>What do you do?</h3>
         <p>I make stuff sometimes,,, and that's about it. I usually somewhat sarcastically describe myself as an artist who rarely draws, a programmer who rarely programs,
         and a student who rarely studies.</p>
         <h3>What languages do you know?</h3>
         <p>I mostly work in TS and python, but I'm currently learning Svelte!</p>
         <p>As for human languages, English is obviosuly my first language, but I'm trying to <a href="https://duome.eu/kayt_was_taken">self-teach</a> myself Dutch and Japanese! I'm also interested in learning
-            or learning about ASL, Ukranian, German, Cantonese, Tagalog, and Indonesian.</p>
+            or learning about Esperanto, Ido, Toki Pona, ASL, Ukranian, German, Cantonese, Tagalog, and Indonesian.</p>
     </div>
 
 </div>

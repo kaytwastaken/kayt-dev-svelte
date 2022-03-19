@@ -37,7 +37,7 @@
             padding: 1rem;
             border-radius: 10px;
             margin-bottom: 1rem;
-            h1,h2,h3 {
+            h2,h3 {
                 padding-bottom: 0;
             }
             width: 50vw;

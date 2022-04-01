@@ -3,7 +3,6 @@
         <a href="https://pk.kayt.dev">PK-web</a>
         <a href="https://twitter.com/kayt_was_taken">Twitter</a>
         <a href="https://github.com/kaytwastaken">Github</a>
-        <a href="https://instagram.com/kayt_was_taken">Instagram</a>
         <a href="/credits">Open source credits</a>
     </div>
 </footer>

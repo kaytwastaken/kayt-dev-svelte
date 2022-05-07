@@ -13,14 +13,11 @@ export const get = async () => {
             }
         })
     )
-    
-    const sortedPosts = allPosts.sort((a, b) => {
-        console.log(allPosts)
-        return new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime()
-    })
 
     return {
         status: 200,
-        body: sortedPosts
+        body: allPosts.sort((a, b) => {
+            return new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime()
+        })
     }
 }

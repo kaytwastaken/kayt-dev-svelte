@@ -19,19 +19,12 @@
     {#each projects as project}
         <li>
             <div>
-                <span>
-                    <h2>
-                        <a href={project.path}>
-                            {project.meta.title}
-                        </a>
-                         📝
-                    </h2>
-                </span>
-                <span>
-                    <a href={project.meta.link}>Project page</a>
-                    🔗
-                </span>
-            </div> 
+                <h2>
+                    {project.meta.title}
+                </h2>
+                <a href={project.path}> Details</a>
+                <a href={project.meta.link}>Project page</a>
+            </div>
             <h3>{project.meta.desc ? project.meta.desc : ""}</h3>
         </li>
     {/each}
@@ -55,12 +48,8 @@
             div {
                 padding: 0;
                 margin-bottom: .5rem;
-                span, a {
-                    display: inline-block;
-                    padding-bottom: 0;
-                }
-                span > a {
-                    margin-left: 1rem;
+                a {
+                    margin-right: .5rem;
                 }
             }
         }

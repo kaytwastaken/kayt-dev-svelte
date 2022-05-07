@@ -1,5 +1,5 @@
 ---
-title: '<Kayt.dev/>'
+title: kayt.dev
 desc: 'My website!'
 link: 'https://kayt.dev'
 status: 'Forever WIP'

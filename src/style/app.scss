@@ -29,6 +29,7 @@ $grad-logo: linear-gradient(90deg, $pink 0%, $orange 100%);
     padding: 0;
     color: $text;
     font-family: Raleway;
+    transition-duration: 100ms;
 }
 
 :global(body) {

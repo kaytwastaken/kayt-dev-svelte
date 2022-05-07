@@ -1,8 +1,8 @@
 ---
-title: 'PK-web'
-desc: 'An online editor for the PluralKit discord bot!'
+title: 'pk-web-svelte'
+desc: 'Svelte rewrite of my pluralkit editor!'
 link: 'https://pk.kayt.dev'
-status: 'v0.1.0'
+status: 'v0.3.2'
 ---
 
 ## An online editor for the PluralKit discord bot!
@@ -10,10 +10,10 @@ status: 'v0.1.0'
 
 Editing PK information using Discord is kind of a pain, so I thought I'd make an online editor to do it, using PK's public API.
 
-[PK-web (mine!)](https://pk.kayt.dev)
+[pk-web-svelte](https://pk.kayt.dev) (mine!)
 
-[Original (afaik) and inspiration](https://pk.greysdawn.com/)
+[Original inspiration](https://pk.greysdawn.com/)
 
-[Another really good one I found](https://pk-webs.spectralitree.com/)
+[Another really good one I found](https://pk-webs-beta.spectralitree.com/)
 
 [Pluralkit](https://github.com/xSke/PluralKit) by xSke.

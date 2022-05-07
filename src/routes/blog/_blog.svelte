@@ -36,7 +36,7 @@
                 background-color: $bg-secondary;
             }
             :global(ul) {
-                margin-top: .5rem;
+                margin-bottom: 1rem;
             }
             :global(li) {
                 margin-left: 1.5rem;

@@ -3,7 +3,7 @@
         <a href="https://pk.kayt.dev">PK-web</a>
         <a href="https://twitter.com/kayt_was_taken">Twitter</a>
         <a href="https://github.com/kaytwastaken">Github</a>
-        <a href="/credits">Open source credits</a>
+        <a href="/credits">Credits/Links</a>
     </div>
 </footer>
 
@@ -28,6 +28,12 @@
                 grid-template-columns: 1fr 1fr 1fr;
             }
 
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
         }
     }
 </style>

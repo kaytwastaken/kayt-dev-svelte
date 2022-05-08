@@ -15,6 +15,10 @@
     export let projects
 </script>
 
+<svelte:head>
+    <title>Projects | kayt.dev</title>
+</svelte:head>
+
 <ul class="container">
     {#each projects as project}
         <li>

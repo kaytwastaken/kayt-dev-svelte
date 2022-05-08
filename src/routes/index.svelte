@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>&#060;Kayt.dev/&#062;</title>
+</svelte:head>
+
 <div class="container">
     <div>
         <h1>Hi! I'm Kayt!</h1>

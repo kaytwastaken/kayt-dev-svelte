@@ -15,6 +15,10 @@
     export let posts
 </script>
 
+<svelte:head>
+    <title>Blog | kayt.dev</title>
+</svelte:head>
+
 <ul class="container">
     {#each posts as post}
         <li>

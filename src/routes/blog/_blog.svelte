@@ -4,7 +4,7 @@
 </script>
   
 <svelte:head>
-    <title>Kayt.dev | {title}</title>
+    <title>{title} | kayt.dev</title>
 </svelte:head>
 
 <div class="container">

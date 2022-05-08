@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Credits | kayt.dev</title>
+</svelte:head>
+
 <div class="container">
     <div>
         <h1>Open source software</h1>

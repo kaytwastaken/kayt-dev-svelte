@@ -1,10 +1,12 @@
 <script>
     export let title
     export let date
+    export let excerpt
 </script>
   
 <svelte:head>
     <title>{title} | kayt.dev</title>
+    <meta name="description" content={excerpt} />
 </svelte:head>
 
 <div class="container">

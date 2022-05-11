@@ -1,10 +1,10 @@
 ---
 title: kayt.dev
-desc: 'My website!'
+desc: 'my website!'
 link: 'https://kayt.dev'
-status: 'Forever WIP'
+status: 'forever wip'
 ---
 
-## My website!
+## my website!
 
-You're already here! Hopefully it's as good as it can be :D
+hopefully u enjoy it here :)

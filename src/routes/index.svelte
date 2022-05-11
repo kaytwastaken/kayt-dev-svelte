@@ -4,20 +4,18 @@
 
 <div class="container">
     <div>
-        <h1>Hi! I'm Kayt!</h1>
-        <p>You might know me as diet 7up, Kaytastrophe, Kayt_was_taken, or any of my other derivative usernames, but either way, you've found your way to my corner of the internet!</p>
+        <h1>hi! i'm kayt!</h1>
+        <p>you probably know me as kaytastrophe or another one of my derivative usernames, but you've found your way to my corner of the internet!</p>
     </div>
     <div>
-        <h2>About me</h2>
-        <h3>Who are you?</h3>
-        <p>I'm a student! My pronouns are she/they 🏳️‍⚧️, and I have way too many hobbies.</p>
-        <h3>What do you do?</h3>
-        <p>I make stuff sometimes,,, and that's about it. I usually somewhat sarcastically describe myself as an artist who rarely draws, a programmer who rarely programs,
-        and a student who rarely studies.</p>
-        <h3>What languages do you know?</h3>
-        <p>I mostly work in TS and python, but I'm currently learning Svelte!</p>
-        <p>As for human languages, English is obviosuly my first language, but I'm trying to self-teach myself Dutch and Japanese! I'm also interested in learning
-            or learning about Esperanto, Ido, Toki Pona, ASL, Ukranian, German, Cantonese, Tagalog, and Indonesian.</p>
+        <h2>about me</h2>
+        <h3>who are you?</h3>
+        <p>i'm a student, my pronouns are she/they 🏳️‍⚧️, and i have a lot of hobbies.</p>
+        <h3>what do you do?</h3>
+        <p>idk, im make stuff sometimes. sometimes i say im an artist who rarely draws, a programmer who rarely programs, and a student who rarely studies.</p>
+        <h3>what languages do you know?</h3>
+        <p>most of my work is in svelte but i also use python and ts.</p>
+        <p>for human languages, english is obviosuly my first language but sometimes i study dutch and japanese. i'm also interested in esperanto, ido, toki pona, asl, ukranian, german, cantonese, tagalog, and indonesian.</p>
     </div>
 
 </div>

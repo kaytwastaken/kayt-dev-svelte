@@ -1,9 +1,8 @@
 <footer>
     <div>
-        <a href="https://pk.kayt.dev">PK-web</a>
-        <a href="https://twitter.com/kayt_was_taken">Twitter</a>
-        <a href="https://github.com/kaytwastaken">Github</a>
-        <a href="/credits">Credits/Links</a>
+        <a href="https://pk.kayt.dev">pk-web</a>
+        <a href="https://github.com/kaytwastaken">github</a>
+        <a href="/credits">credits/links</a>
     </div>
 </footer>
 
@@ -20,7 +19,7 @@
             @include descending-width;
             
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 2em 2em;
             justify-items: center;
 

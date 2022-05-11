@@ -1,14 +1,14 @@
 ---
 title: 'pk-web-svelte'
-desc: 'Svelte rewrite of my pluralkit editor!'
+desc: 'svelte rewrite of my pluralkit editor!'
 link: 'https://pk.kayt.dev'
 status: 'v0.3.2'
 ---
 
-## An online editor for the PluralKit discord bot!
+## an online editor for the PluralKit discord bot!
 
 
-Editing PK information using Discord is kind of a pain, so I thought I'd make an online editor to do it, using PK's public API.
+editing pk info in discord is kind of a pain so i thought id make a better editor to do it
 
 [pk-web-svelte](https://pk.kayt.dev) (mine!)
 

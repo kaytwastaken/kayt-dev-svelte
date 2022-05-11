@@ -5,7 +5,9 @@ date: '2021-7-28'
 
 ## Flashing Android and some background
 
-As you may know if you follow me on [Twitter](https://twitter.com/kayt_was_taken), I've been dabbling in the world of custom Android ROMs for about 3 months now (i think? tbh i cant remember). It started with flashing my old Nexus 5x with Lineage 15 - I will be forever grateful to the engineers who made it so easy to unlock the bootloader on that phone - then I moved on to my brother's old Moto g7 (hereby referred to as just Moto). I was rather disappointed that unlocking the bootloader was a more involved process, but at least Motorola still made it easy.
+Edited: 2022-05-11
+
+As you may know if you had followed me on Twitter, I've been dabbling in the world of custom Android ROMs for about 3 months now (i think? tbh i cant remember). It started with flashing my old Nexus 5x with Lineage 15 - I will be forever grateful to the engineers who made it so easy to unlock the bootloader on that phone - then I moved on to my brother's old Moto g7 (hereby referred to as just Moto). I was rather disappointed that unlocking the bootloader was a more involved process, but at least Motorola still made it easy.
 
 If I remember correctly, the process is essentially:
 
@@ -77,4 +79,4 @@ I cut some of the adhesive ifixit included in the kit, glued the phone back toge
 
 Anyway, like I said, I'm planning on flashing the g6 with A11, but I've also been thinking about doing camera comparisons between my phones and a DSLR. That will definitely find it's home here once I get around to it. If you're interested in the Right to Repair movement, I highly recommend checking out [ifixit](https://www.ifixit.com/Right-to-Repair) (im obv not sponsored or anything, though I would love to be), [Jerry Rig Everything](https://www.youtube.com/user/JerryRigEverything), and [Louis Rossman](https://www.youtube.com/user/rossmanngroup).
 
-'til next time, thanks for reading, check me out on [XDA](https://forum.xda-developers.com/m/kayt_was_taken.11697793/#xdadevices_inventory), and uhh drink water :)
+'til next time, thanks for reading, and uhh drink water :)

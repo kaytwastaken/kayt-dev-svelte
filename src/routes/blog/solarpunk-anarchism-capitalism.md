@@ -30,3 +30,9 @@ I mean of course anarchism is an ideal, but replacing one ism with another isn't
 but i dont know, a lot of this might sound priveledged and ignorant, which it is, but i had a sudden burst of motivation to say *something* even if it's wrong, so i could have something to add to, so i could maybe tell someone something new, so i could have a chance to learn more. but i've said my piece, and i want to hear more, so i encourage anyone reading this to say what they think, talk about their ideas, and listen to what other people have to say. i'm also gonna go watch more [andrewism](https://www.youtube.com/c/Andrewism) <small>(Youtube/Andrewism)</small> and [our changing climate](https://www.youtube.com/c/OurChangingClimate) <small>(Youtube/Our Changing Climate)</small> videos because that's how i ended up here.
 
 anyway, drink water, ride public transit, and i hope you have a good day!
+
+p.s., watch these! i enjoyed them and highly recommend
+- [What Is Solarpunk?](https://youtu.be/hHI61GHNGJM) <small>( Youtube/Andrewism/"What is Solarpunk?", again )</small>
+- [How We Can Make Solarpunk A Reality](https://youtu.be/u-JvyfZVkIM) <small>( Youtube/Andrewism/"How We Can Make Solarpunk A Reality" )</small>
+- [How We Can Build A Solarpunk Future Right Now](https://youtu.be/twGcjDnOb_U) <small>( Youtube/Our Changing Climate/"How We Can Build A Solarpunk Future Right Now" )</small>
+- [Why This Gives Me Hope for the Future](https://youtu.be/u3aauiR9M88) <small>( Youtube/Our Changing Climate/Why This Gives Me Hope for the Future )</small>

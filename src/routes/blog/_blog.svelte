@@ -30,12 +30,19 @@
 
             :global(p) {
                 padding-bottom: 1rem;
+                line-height: 1.3rem;
             }
             :global(blockquote) {
                 margin: .5rem 0 1rem 1rem;
                 padding: 1rem .5rem 0 1rem;
                 border-left: 2px solid $orange;
                 background-color: $bg-secondary;
+            }
+            :global(h2) {
+                margin-bottom: .5rem;
+            }
+            :global(h3) {
+                margin-bottom: .5rem;
             }
             :global(ul) {
                 margin-bottom: 1rem;
@@ -61,6 +68,9 @@
                 width: 50vw;
 
                 @include descending-width;
+            }
+            :global(hr) {
+                margin: 0 5px 1rem 5px;
             }
         }
     }

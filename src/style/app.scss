@@ -1,16 +1,4 @@
-// Colors
-$black: #0a0004;
-$text: #e2dddd;
-$white: #fffaff;
-$bg: #26171c;
-    $bg-secondary: #3a2c31;
-        $bg-tertiary: #4e4146;
-$pink: #ba497d;
-$orange: #f26430;
-$blue: #5d9596;
-
-// Gradients
-$grad-logo: linear-gradient(90deg, $pink 0%, $orange 100%);
+@import 'vars';
 
 @font-face {
     font-family: Raleway;

@@ -13,6 +13,7 @@
             <a href="https://github.com/sveltejs/kit">SvelteKit</a>
             <a href="https://github.com/pngwn/mdsvex">MDsveX</a>
             <a href="https://github.com/sass">Sass</a>
+            <a href="https://github.com/rstacruz/nprogress">NProgress</a>
         </div>
 
         <h1>Fonts used</h1>

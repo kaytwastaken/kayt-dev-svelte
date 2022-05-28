@@ -1,4 +1,4 @@
-<nav>
+<nav id="nav">
     <a href="/">
         <span>
             <img src="/images/brown_blue_picrew.png" alt="" width="64">

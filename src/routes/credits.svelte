@@ -1,5 +1,7 @@
 <svelte:head>
     <title>Credits | kayt.dev</title>
+    <meta name="description" content="open source credits">
+    <meta name="keywords" content="kayt,dev,open,source,js,ts,svelte,jamstack">
 </svelte:head>
 
 <div class="container">

@@ -1,12 +1,13 @@
-<script>
-    export let title
-    export let date
-    export let excerpt
+<script lang='ts'>
+    export let title:string
+    export let date:string
+    export let excerpt:string
 </script>
   
 <svelte:head>
     <title>{title} | kayt.dev</title>
     <meta name="description" content={excerpt} />
+    <meta name="keywords" content={title.split(" ").join(",")}>
 </svelte:head>
 
 <div class="container">
@@ -29,7 +30,7 @@
             @include descending-width;
 
             :global(p) {
-                padding-bottom: 1rem;
+                padding-top: 1rem;
                 line-height: 1.3rem;
             }
             :global(blockquote) {
@@ -55,6 +56,7 @@
                 background-color: $bg-secondary;
                 padding: .25rem;
                 border-radius: 5px;
+                line-height: 1.3rem;
             }
             :global(pre) {
                 font-family: 'Courier New', Courier, monospace;

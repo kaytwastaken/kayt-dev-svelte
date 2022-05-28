@@ -17,6 +17,8 @@
 
 <svelte:head>
     <title>Blog | kayt.dev</title>
+    <meta name="description" content="my blog!">
+    <meta name="keywords" content="kayt,dev,blog,js,ts,svelte,webdev,developer">
 </svelte:head>
 
 <ul class="container">

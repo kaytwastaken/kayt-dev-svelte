@@ -1,5 +1,7 @@
 <svelte:head>
     <title>&#060;Kayt.dev/&#062;</title>
+    <meta name="description" content="a place for all the things i do">
+    <meta name="keywords" content="kayt,dev,webdev,js,ts,svelte,jamstack">
 </svelte:head>
 
 <div class="container">

@@ -17,6 +17,8 @@
 
 <svelte:head>
     <title>Projects | kayt.dev</title>
+    <meta name="description" content="my ongoing and finished projects">
+    <meta name="keywords" content="kayt,dev,js,ts,pk,pluralkit,webdev,jamstack,svelte">
 </svelte:head>
 
 <ul class="container">

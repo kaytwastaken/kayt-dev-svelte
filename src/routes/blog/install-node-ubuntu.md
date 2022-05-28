@@ -6,7 +6,7 @@ excerpt: I got tired of looking up guides so I made my own
 
 I have no clue why installing node is such a pain on linux, but it is and I was tired of constantly needing to look up guides so I wrote my own.
 
-This is for installing node 18.2.0 and npm 8.9.0 which are the latest bundled versions as of writing. npm can be updated to 8.11.0 with `sudo npm i-g npm@latest`.
+This is for installing node 18.2.0 and npm 8.9.0 which are the latest bundled versions as of writing. npm can be updated to 8.11.0 with `sudo npm i -g npm@latest`.
 
 1) download and extract binary archive
 ```

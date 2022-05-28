@@ -14,8 +14,6 @@
 
 <style lang="scss">
     nav {
-        // background-color: $bg-secondary;
-        // padding: 0 33vw 0 33vw;
         color: $text;
         display: flex;
         justify-content: space-evenly;

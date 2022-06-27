@@ -1,5 +1,6 @@
 <footer>
     <div>
+        <a href="https://mc.kayt.dev">mc-kayt-dev</a>
         <a href="https://pk.kayt.dev">pk-web</a>
         <a href="https://github.com/kaytwastaken">github</a>
         <a href="/credits">credits/links</a>

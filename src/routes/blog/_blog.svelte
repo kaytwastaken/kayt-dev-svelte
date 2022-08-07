@@ -30,12 +30,12 @@
             @include descending-width;
 
             :global(p) {
-                padding-top: 1rem;
+                padding: .5rem 0 .5rem 0;
                 line-height: 1.3rem;
             }
             :global(blockquote) {
                 margin: .5rem 0 1rem 1rem;
-                padding: 1rem .5rem 0 1rem;
+                padding: 0 0 0 1rem;
                 border-left: 2px solid $orange;
                 background-color: $bg-secondary;
             }
@@ -65,10 +65,10 @@
                 border-radius: 5px;
                 max-width: fit-content;
                 margin-bottom: .5rem;
+                line-break: auto;
+                overflow-x: scroll;
             }
             :global(img) {
-                width: 50vw;
-
                 @include descending-width;
             }
             :global(hr) {

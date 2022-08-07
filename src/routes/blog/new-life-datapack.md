@@ -1,7 +1,7 @@
 ---
 title: My first datapack! New Life v1.0
 date: '2022-08-06'
-excerpt: shows under title on /blog
+excerpt: Minecraft hardcore, with a twist!
 ---
 
 ## if you care more about the techincal parts, skip to [that section](#the-technical-stuff)

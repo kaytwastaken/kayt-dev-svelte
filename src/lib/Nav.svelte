@@ -8,7 +8,7 @@
     <span>
         <a sveltekit:prefetch href="/">home</a>
         <a href="/blog">blog</a>
-        <a sveltekit:prefetch href="/projects">projects</a>
+        <!-- <a sveltekit:prefetch href="/projects">projects</a> -->
     </span>
 </nav>
 

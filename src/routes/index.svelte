@@ -13,24 +13,19 @@
         <h2>about me</h2>
         
         <h3>who are you?</h3>
-        <p>i'm a student, my pronouns are she/they 🏳️‍⚧️, and i have a lot of hobbies.</p>
+        <p>i'm a student, my pronouns are she/they 🏳️‍⚧️, and i have a lot of hobbies :D</p>
         
         <h3>what do you do?</h3>
-        <p>idk, im make stuff sometimes. sometimes i say im an artist who rarely draws, a programmer who rarely programs, and a student who rarely studies. my current projects are listed <a href="/projects">here</a></p>
+        <p>i make stuff sometimes<br>
+            im an artist who rarely draws, a programmer who rarely programs, and a student who rarely studies</p>
         
         <h3>what languages do you know?</h3>
-        <p>most of my work is in svelte but i also use python and ts.</p>
-        <p>for human languages, english is obviosuly my first language but i hope to learn dutch and asl. i also have slight knowledge in japanese and italian.</p>
+        <p>most of my work is in svelte but i also use python and ts</p>
+        <p>as for human languages, english is obviosuly my first language but i hope to learn dutch and asl. i also have slight knowledge in japanese and italian.</p>
 
-        <h2>elsewhere online</h2>
-
-        <h3>art</h3>
-        <p><a href="https://artfight.net/~Kayt_was_taken">Artfight</a></p>
-        <p><a href="https://www.artfol.me/kayt_was_taken">Artfol</a></p>
-
-        <h3>everything else</h3>
-        <p><a href="https://twitter.com/kayt_was_taken">Twitter</a> (i almost never use twitter dont follow me)</p>
-        <p><a href="https://kayt-was-taken.tumblr.com">Tumblr</a></p>
+        <h3>elsewhere online</h3>
+        <a href="https://toot.community/@kayt">mastodon</a><br>
+        <a href="https://www.artfol.me/kayt_was_taken">artfol</a>
     </div>
 
 </div>

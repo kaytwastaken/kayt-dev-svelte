@@ -1,6 +1,6 @@
 <!-- WrappedLayout.svelte -->
 <script lang="ts">
-	import Layout from './_blog.svelte'
+	import Layout from '../_blog.svelte'
     export let title
     export let date
     export let excerpt

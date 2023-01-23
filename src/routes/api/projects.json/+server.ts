@@ -14,8 +14,15 @@ export const get = async () => {
         })
     )
 
-    return {
-        status: 200,
-        body: allProjects
-    }
+    // return {
+    //     status: 200,
+    //     body: allProjects
+    // }
+
+    return new Response(JSON.stringify(allProjects), {
+        headers: {
+            'content-type': 'application/json; charset=utf-8'
+        },
+        status: 200
+    });
 }

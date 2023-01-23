@@ -14,10 +14,19 @@ export const get = async () => {
         })
     )
 
-    return {
-        status: 200,
-        body: allPosts.sort((a, b) => {
+    // return {
+    //     status: 200,
+    //     body: allPosts.sort((a, b) => {
+    //         return new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime()
+    //     })
+    // }
+
+    return new Response(JSON.stringify((a, b) => {
             return new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime()
-        })
-    }
+        }), {
+        headers: {
+            'content-type': 'application/json; charset=utf-8'
+        },
+        status: 200
+    });
 }

@@ -1,9 +1,27 @@
+export function load() {
+    const imports = import.meta.glob('/src/routes/blog/*.md', { eager: true });
 
-export const load = async ({fetch}) => {
-    const posts = await fetch('/api/posts.json')
-    const allPosts = await posts.json()
+    // console.log(imports)
+    const posts = []
+    for (const path in imports) {
+        const post = imports[path]
+        console.log(post)
+        // TODO fix type errors :')
+        // @ts-ignore
+        const metadata = post.metadata
+        const postPath = path.slice(11,-3)
+        posts.push({
+			metadata,
+            postPath
+        });
+    }
 
-    return {
-    posts: allPosts
-}
+    // console.log(posts)
+
+    posts.sort((a, b) => {
+        return new Date(b.metadata.date).getTime() - new Date(a.metadata.date).getTime()
+    })
+
+    return {posts}
+
 }

@@ -14,13 +14,11 @@
             <a href="https://github.com/sveltejs/kit">SvelteKit</a>
             <a href="https://github.com/pngwn/mdsvex">MDsveX</a>
             <a href="https://github.com/sass/sass">Sass</a>
-            <p>All of previous are licensed under the <a href="https://mit-license.org/">MIT License</a></p>
         </div>
+        <p>All of previous are licensed under the <a href="https://mit-license.org/">MIT License</a></p>
 
         <h2>Fonts used</h2>
-        <div>
-            <span><a href="https://fonts.google.com/specimen/Raleway">Raleway</a> - <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Open Font License</a></span>
-        </div>
+        <span><a href="https://fonts.google.com/specimen/Raleway">Raleway</a> - <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Open Font License</a></span>
     </div>
 </div>
 

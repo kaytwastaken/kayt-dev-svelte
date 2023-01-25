@@ -2,6 +2,7 @@
 title: Pk-web-svelte v0.3.0!
 date: '2022-05-07'
 excerpt: Most of the important things!
+archive: true
 ---
 
 ![A screenshot of the pk-web-svelte login page](/static/images/pk-web_login.jpg)

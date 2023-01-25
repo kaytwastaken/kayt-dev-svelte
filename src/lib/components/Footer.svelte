@@ -1,7 +1,7 @@
 <footer>
     <div>
-        <a href="https://mc.kayt.dev">mc.kayt.dev</a>
-        <a href="https://pk.kayt.dev">pk.kayt.dev</a>
+        <!-- <a href="https://mc.kayt.dev">mc.kayt.dev</a>
+        <a href="https://pk.kayt.dev">pk.kayt.dev</a> -->
         <a href="/licenses">licenses + source</a>
     </div>
 </footer>

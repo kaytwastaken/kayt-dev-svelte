@@ -24,12 +24,12 @@
 
             <br>
 
-        <ul>
-            <li><a href="https://twitter.com/kayt_was_taken">birded site</a><br></li>
-            <li><a href="https://toot.community/@kayt">masted don</a><br></li>
-            <li><a href="https://www.artfol.me/kayt_was_taken">arted fol</a></li>
-            <li><a href="https://github.com/kaytwastaken">gitted hub</a></li>
-        </ul>
+        <span>
+            <a href="https://twitter.com/kayt_was_taken">birded site</a><br>
+            <a href="https://toot.community/@kayt">masted don</a><br>
+            <a href="https://www.artfol.me/kayt_was_taken">arted fol</a>
+            <a href="https://github.com/kaytwastaken">gitted hub</a>
+        </span>
     </div>
 
 </div>
@@ -59,9 +59,6 @@
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                img {
-                    margin-right: 1rem;
-                }
             }
         }
     }
@@ -70,6 +67,11 @@
         flex-direction: row;
         list-style: none;
         li {
+            margin-right: 1rem;
+        }
+    }
+    span {
+        a {
             margin-right: 1rem;
         }
     }

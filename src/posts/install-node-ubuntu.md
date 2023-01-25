@@ -2,6 +2,7 @@
 title: Installing nodejs on Ubuntu or Debian from binaries
 date: '2022-05-28'
 excerpt: I got tired of looking up guides so I made my own
+archive: true
 ---
 
 I have no clue why installing node is such a pain on linux, but it is and I was tired of constantly needing to look up guides so I wrote my own.

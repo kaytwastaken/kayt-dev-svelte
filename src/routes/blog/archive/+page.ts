@@ -1,17 +1,17 @@
 export function load() {
-    const imports = import.meta.glob('../../posts/*.md', { eager: true });
+    const imports = import.meta.glob('../../../posts/*.md', { eager: true });
 
     // console.log(imports)
     const posts = []
     for (const path in imports) {
         const post = imports[path]
         // @ts-ignore
-        // if not archived
-        if (! post.metadata.archive) {
+        // if archived
+        if (post.metadata.archive) {
             // TODO fix type errors :')
             // @ts-ignore
             const metadata = post.metadata
-            const postPath = path.slice(12,-3)
+            const postPath = path.slice(15,-3)
             posts.push({
                 metadata,
                 postPath

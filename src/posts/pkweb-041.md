@@ -2,6 +2,7 @@
 title: git is hard (pk-web-svelte v0.4.1)
 date: '2022-05-28T20:30:00.000Z'
 excerpt: loading bars !!
+archive: true
 ---
 
 Another changelog? woah dude thats crazy

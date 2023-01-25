@@ -2,6 +2,7 @@
 title: Guess who rewrote her blog again :D
 date: '2022-03-09'
 excerpt: me ✨
+archive: true
 ---
 
 Yeah, you're right, it's me. But hey- at least I said that I probably would when I finished my last rewrite.
@@ -29,4 +30,6 @@ Images 🖼️
 
 and probably a whole bunch of other funky md syntax that I can't be bothered to learn!
 
-Either way,  since it is a lot easier to write new posts, my blog hopefully won't be as dead!
+~~Either way,  since it is a lot easier to write new posts, my blog hopefully won't be as dead!~~
+
+edit 23-1-23: dunno what i expected, its still dead cause i never write anything :kek:

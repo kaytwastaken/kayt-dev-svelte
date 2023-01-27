@@ -2,6 +2,7 @@
 title: Me? A new blog? Again?
 date: '2022-03-19'
 excerpt: More likely than you'd think
+archive: true
 ---
 
 So I know I have a reputation of rewriting my blog over and over again, but this time I have a reason! well- kind of a reason-

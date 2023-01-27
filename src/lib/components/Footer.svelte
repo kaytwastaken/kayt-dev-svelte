@@ -1,13 +1,14 @@
 <footer>
     <div>
-        <a href="https://mc.kayt.dev">mc-kayt-dev</a>
-        <a href="https://pk.kayt.dev">pk-web</a>
-        <a href="https://github.com/kaytwastaken">github</a>
-        <a href="/credits">credits/links</a>
+        <!-- <a href="https://mc.kayt.dev">mc.kayt.dev</a>
+        <a href="https://pk.kayt.dev">pk.kayt.dev</a> -->
+        <a href="/licenses">licenses + source</a>
     </div>
 </footer>
 
 <style lang="scss">
+    @import "src/style/app.scss";
+
     footer {
         display: flex;
         justify-content: center;

@@ -6,24 +6,24 @@
 
 <div class="container">
     <div>
-        <h1>Open source software</h1>
-        <small>If I'm not listing something here that I should please lmk!</small>
+        <p>This site's <a href="https://github.com/Kaytwastaken/kayt-dev-svelte">source code</a> is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL v3</a></p>
+        
+        <h2>Open source software</h2>
         <div>
             <a href="https://github.com/sveltejs/svelte">Svelte</a>
             <a href="https://github.com/sveltejs/kit">SvelteKit</a>
             <a href="https://github.com/pngwn/mdsvex">MDsveX</a>
-            <a href="https://github.com/sass">Sass</a>
-            <a href="https://github.com/rstacruz/nprogress">NProgress</a>
+            <a href="https://github.com/sass/sass">Sass</a>
         </div>
+        <p>All of previous are licensed under the <a href="https://mit-license.org/">MIT License</a></p>
 
-        <h1>Fonts used</h1>
-        <div>
-            <a href="https://fonts.google.com/specimen/Raleway">Raleway</a>
-        </div>
+        <h2>Fonts used</h2>
+        <span><a href="https://fonts.google.com/specimen/Raleway">Raleway</a> - <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Open Font License</a></span>
     </div>
 </div>
 
 <style lang="scss">
+    @import 'src/style/app.scss';
     .container {
         div {
             width: 50vw;

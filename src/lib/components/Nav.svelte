@@ -1,22 +1,23 @@
 <nav id="nav">
     <a href="/">
-        <span>
-            <img src="/images/brown_blue_picrew.png" alt="" width="64">
-            <h1>&#060;kayt.dev/&#062;</h1>
-        </span>
+        <h1>&#060;kayt.dev/&#062;</h1>
     </a>
     <span>
-        <a sveltekit:prefetch href="/">home</a>
+        <a href="/">home</a>
         <a href="/blog">blog</a>
-        <!-- <a sveltekit:prefetch href="/projects">projects</a> -->
     </span>
 </nav>
 
 <style lang="scss">
+    @import "src/style/app.scss";
+    
     nav {
+        margin: auto;
+        width: 50vw;
+        @include descending-width;
         color: $text;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         padding-bottom: 2rem;
         align-items: center;
         flex-direction: row;
@@ -41,7 +42,7 @@
         span {
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-around;
             * {
                 padding: 0 1rem 0 1rem;
             }
@@ -52,11 +53,8 @@
             a:hover {
                 border-bottom: 2px solid $pink;
             }
-        }
-        img {
-            display: unset;
-            @include xs-screen {
-                display: none;
+            img {
+                padding: 0;
             }
         }
     }

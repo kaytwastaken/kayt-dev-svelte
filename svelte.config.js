@@ -1,45 +1,23 @@
-// import adapter from '@sveltejs/adapter-auto';
 import adapter from '@sveltejs/adapter-node';
-import sveltePreprocess from 'svelte-preprocess';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 import { mdsvex } from 'mdsvex'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
-		adapter: adapter({
-			out: 'build',
-			precompress: false,
-			env: {
-				host: '127.0.0.1',
-				port: '3000',
-				origin: 'https://kayt.dev',
-			}
-		})
-	},
-
-	extensions: ['.svelte', '.md'],
-	
+	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
+	// for more information about preprocessors
 	preprocess: [
-		sveltePreprocess({
-			scss: {
-				prependData: `@import './src/style/app.scss';`
-			} 
-		}),
+		vitePreprocess(),
 		mdsvex({
-			extensions: ['.md'],
-			layout: {
-				blog: 'src/routes/blog/blogLayout.svelte',
-				projects: 'src/routes/projects/projectLayout.svelte'
-			}
+			extensions: ['.md']
 		})
 	],
-	onwarn: (warning, handler) => {
-        const { code } = warning;
-        if (code === "css-unused-selector")
-            return;
 
-        handler(warning);
-	}
+	kit: {
+		adapter: adapter()
+	},
 
+	extensions: ['.svelte', '.md']
 };
+
 export default config;

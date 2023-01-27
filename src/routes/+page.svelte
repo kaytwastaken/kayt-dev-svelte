@@ -35,17 +35,19 @@
 </div>
 
 <ul class="badges">
-    <a href="https://cyber.dabamos.de/88x31"><li><img src="https://kayt.dev/static/88x31.gif" alt=""></li></a>
+    <a href="https://cyber.dabamos.de/88x31" target="_blank" rel="noreferrer"><li><img src="https://kayt.dev/static/88x31.gif" alt=""></li></a>
     <li><img src="https://kayt.dev/static/webpassion.gif" alt=""></li>
-    <li><img src="https://kayt.dev/static/firefox4.gif" alt=""></li>
-    <li><img src="https://kayt.dev/static/keep.gif" alt=""></li>
+    <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noreferrer"><li><img src="https://kayt.dev/static/firefox4.gif" alt=""></li></a>
+    <a href="https://yesterweb.org/no-to-web3/" target="_blank" rel="noreferrer"><li><img src="https://kayt.dev/static/keep.gif" alt=""></li></a>
     <li><img src="https://kayt.dev/static/antinft.gif" alt=""></li>
-    <li><img src="https://kayt.dev/static/copy_floppy.gif" alt=""></li>
+    <a href="https://archive.org" target="_blank" rel="noreferrer"><li><img src="https://kayt.dev/static/copy_floppy.gif" alt=""></li></a>
     <li><img src="https://kayt.dev/static/piracy.gif" alt=""></li>
     <li><img src="https://kayt.dev/static/bvwe.gif" alt=""></li>
-    <li><img src="https://kayt.dev/static/queer.png" alt=""></li>
-    <li><img src="https://kayt.dev/static/trans-pride-88x31.gif" alt=""></li>
+    <a href="https://en.pronouns.page/@kayt_was_taken" target="_blank" rel="noreferrer"><li><img src="https://kayt.dev/static/queer.png" alt=""></li></a>
+    <a href="https://en.pronouns.page/@kayt_was_taken" target="_blank" rel="noreferrer"><li><img src="https://kayt.dev/static/trans-pride-88x31.gif" alt=""></li></a>
+    <li><img src="https://kayt.dev/static/transnow2.gif" alt=""></li>
     <li><img src="https://kayt.dev/static/slimesnow.png" alt=""></li>
+    <li><img src="https://kayt.dev/static/forever_online.gif" alt=""></li>
 </ul>
 
 <style lang="scss">

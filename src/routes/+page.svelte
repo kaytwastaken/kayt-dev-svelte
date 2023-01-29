@@ -26,7 +26,7 @@
 
         <span>
             <a href="https://twitter.com/kayt_was_taken">birded site</a><br>
-            <a href="https://toot.community/@kayt">masted don</a><br>
+            <a rel="me" href="https://toot.community/@kayt">masted don</a><br>
             <a href="https://www.artfol.me/kayt_was_taken">arted fol</a>
             <a href="https://github.com/kaytwastaken">gitted hub</a>
         </span>

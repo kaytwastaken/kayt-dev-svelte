@@ -57,7 +57,7 @@ The battery in my brother's old, old phone (don't ask me how he goes through so 
 
 ## Repairing a Moto g6 and getting a little creative
 
-![A photo of an ifixit toolkit laid out with a custom clear Moto g6 and an extra set of tools used to replace the battery.](https://kayt.dev/static/motog6_ifixit.jpg)
+![An ifixit toolkit laid out with a clear Moto g6 and an extra set of tools used to replace the battery.](https://kayt.dev/static/motog6_ifixit.jpg)
 
 So there I was 60 bucks later. A broken g6, a new battery, and the tools I'd need to begin my amateur phone repair journey. Now, I don't know about you, but I haven't seen many transparent phones, so let's talk about how I got to what you see in that image.
 

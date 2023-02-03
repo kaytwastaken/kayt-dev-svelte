@@ -7,8 +7,11 @@
 <div class="container">
     <div>
         <span>
-            <img src="/images/brown_blue_picrew.png" alt="" width="64">
-            <h1>hi! i'm kayt<sub>she/they</sub>!</h1>
+            <img src="/images/smug bitch.png" alt="" width="64" style="margin-right: 1rem;">
+            <div>
+                <h1 style="padding: 0 !important;">hi! i'm kayt!</h1>
+                <b><small>it/ze/hir/she/they</small></b>
+            </div>
         </span>
         <p>you probably know me as kaytastrophe, kayt_was_taken, or another one of my derivative usernames, but you've found your way to my corner of the internet!</p>
     </div>
@@ -29,6 +32,8 @@
             <a rel="me" href="https://toot.community/@kayt">masted don</a><br>
             <a href="https://www.artfol.me/kayt_was_taken">arted fol</a>
             <a href="https://github.com/kaytwastaken">gitted hub</a>
+            <a href="https://youtube.com/@kayt_was_taken">you'd tube</a>
+            <a href="https://twitch.tv/kayt_was_taken">twitched tv</a>
         </span>
     </div>
 

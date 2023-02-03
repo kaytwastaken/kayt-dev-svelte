@@ -31,7 +31,7 @@
     a {
         text-decoration: none;
         h2 {
-            color: $orange;
+            color: $accent-main;
         }
     }
 

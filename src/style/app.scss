@@ -8,12 +8,15 @@ $white: #fffaff;
 $bg: #26171c;
     $bg-secondary: #3a2c31;
         $bg-tertiary: #4e4146;
-$pink: #ba497d;
-$orange: #f26430;
-$blue: #5d9596;
+$accent-main: #d674af;
+$accent-1: #e0b7c2;
+$accent-2: #e6ba96;
+// $accent-2: #5d9596;
+// $accent-1: #ba497d;
+// $accent-2: #f26430;
 
 // Gradients
-$grad-logo: linear-gradient(90deg, $pink 0%, $orange 100%);
+$grad-logo: linear-gradient(90deg, $accent-1 0%, $accent-main 100%);
 
 // Media Query Mixins
 
@@ -90,11 +93,11 @@ html {
 }
 
 :global(a) {
-	color: $orange;
+	color: $accent-main;
 }
 
 :global(em, b) {
-	color: $blue;
+	color: $accent-2;
 }
 
 sup, sub {

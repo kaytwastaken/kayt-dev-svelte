@@ -28,7 +28,7 @@
         :global(blockquote) {
             margin: .5rem 0 1rem 1rem;
             padding: 0 0 0 1rem;
-            border-left: 2px solid $orange;
+            border-left: 2px solid $accent-main;
             background-color: $bg-secondary;
         }
         :global(h2) {

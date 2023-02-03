@@ -31,8 +31,9 @@
             padding: .5rem;
         }
         h1 {
-            background-image: $grad-logo;
-            color:transparent;
+            // background-image: $grad-logo;
+            // color:transparent;
+            color: $accent-main;
             -webkit-background-clip: text;
             background-clip: text;
         }
@@ -51,10 +52,7 @@
                 border-bottom: 2px solid $bg-secondary;
             }
             a:hover {
-                border-bottom: 2px solid $pink;
-            }
-            img {
-                padding: 0;
+                border-bottom: 2px solid $accent-1;
             }
         }
     }

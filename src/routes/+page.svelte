@@ -18,11 +18,18 @@
     <div>
         <h2>who be i?</h2>
 
-        <p>many things - but mostly, a gay who often gays, an artist who rarely arts, a programmer who rarely programs, and a student who rarely studies</p>
+        <p>gay programmer artist girlthing</p>
 
             <br>
+        <h2>what do?</h2>
 
-        <p>as for languages, most of my work is in svelte and ts but i also work w/ python</p>
+        <p>i program make art and play vidya</p>
+        <p>sometimes i like to pretend im good at making videos and/or streaming</p>
+        <p>links for all the stuff are down there</p>
+        
+            <br>
+        <h2>languages?</h2>
+        <p>i work mostly in svelte and ts but i also know some python</p>
         <p>for human languages, english is obviosuly my first language but i have limited knowlegde in japanese and eventually want to learn dutch and asl</p>
 
             <br>

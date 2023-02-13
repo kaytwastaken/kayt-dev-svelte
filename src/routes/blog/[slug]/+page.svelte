@@ -27,15 +27,36 @@
         }
         :global(blockquote) {
             margin: .5rem 0 1rem 1rem;
-            padding: 0 0 0 1rem;
+            padding: 0 1rem 0 1rem;
             border-left: 2px solid $accent-main;
             background-color: $bg-secondary;
         }
         :global(h2) {
-            margin-bottom: .5rem;
+            padding: .5rem 0 .5rem 0;
+        }
+        :global(h2)::before {
+            font-style: normal;
+            content: "##";
+            margin-right: .5rem;
+            color: $bg-secondary;
         }
         :global(h3) {
-            margin-bottom: .5rem;
+            padding: .5rem 0 .5rem 0;
+        }
+        :global(h3)::before {
+            font-style: normal;
+            content: "###";
+            margin-right: .5rem;
+            color: $bg-secondary;
+        }
+        :global(h4) {
+            padding: .5rem 0 .5rem 0;
+        }
+        :global(h4)::before {
+            font-style: normal;
+            content: "####";
+            margin-right: .5rem;
+            color: $bg-secondary;
         }
         :global(ul) {
             padding: 0;
@@ -62,8 +83,7 @@
             overflow-x: scroll;
         }
         :global(img) {
-            max-width: 50%;
-            @include descending-width;
+            max-width: 100%;
         }
         :global(hr) {
             margin: 0 5px 1rem 5px;

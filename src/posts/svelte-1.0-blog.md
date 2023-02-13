@@ -2,6 +2,7 @@
 title: New Framework, New Blog
 date: '2023-01-25'
 excerpt: With Sveltekit v1.0 comes a new iteration of my forever WIP website!
+archive: false
 ---
 
 As it seems is tradition at this point - I rewrote my blog.

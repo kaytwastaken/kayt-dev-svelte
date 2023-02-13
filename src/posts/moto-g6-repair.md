@@ -1,6 +1,7 @@
 ---
 title: 'Acetone, a three-year-old phone, and Right to Repair'
 date: '2021-7-28'
+archive: false
 ---
 
 ## Flashing Android and some background

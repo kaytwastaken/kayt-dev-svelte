@@ -5,7 +5,7 @@
 <div>
     <a href="/blog/{post.postPath}">
         <h2>{post.metadata.title}</h2>
-        <small>published: {post.metadata.date.slice(0,10)}</small>
+        <small>published: {post.metadata.date}</small>
         <p></p>
         <p>{post.metadata.excerpt ? post.metadata.excerpt : ""}</p>
     </a>

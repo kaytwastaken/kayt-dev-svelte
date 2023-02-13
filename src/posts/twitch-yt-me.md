@@ -36,13 +36,13 @@ Partially so I can see how and if these change in the future, and just because I
 As of writing:
 
 - I typically average a whopping *3 viewers*, who are most often some of my friends,
-- and I have and equally outstanding *57 followers*, most of which have never returned for multiple streams.
+- and I have and equally outstanding *58 followers*, most of which have never returned for multiple streams.
 
 Despite my less than impressive numbers, I still have a ton of fun, and I'm actually quite close to passing the requirements for Twitch affiliate! Will I do anything when I pass that milestone? Who knows! Either way, I'm excited to see where this hobby ends up taking me.
 
 ### the state of twitch
 
-Taking a break from talking about myself, I though I'd take a second to just talk about Twitch as a whole. I knew it was already a depressing website in a handful of ways, but the number of times I've seen popular streamers playing the anti-semetic transphobic wizard game is genuinely disappointing :/ Call me a pessimist but it feels like media literacy is certifiably 6 feet under.
+Taking a break from talking about myself, I thought I'd take a second to just talk about Twitch as a whole. I knew it was already a depressing website in a handful of ways, but the number of times I've seen popular streamers playing the anti-semetic transphobic wizard game is genuinely disappointing :/ Call me a pessimist but it feels like media literacy is certifiably 6 feet under.
 
 ## happenings on [youtube](https://www.youtube.com/@kayt_was_taken)
 Moving on to the other nightmare video site, I've been having a ton of fun making content for YouTube! I picked up editing again when I started throwing together some osu! highlights ([one of which](https://youtu.be/QLu8hOD2m1U) did surprisingly well, nearly reaching 1000 views!), and I've planned out a few larger projects! The biggest of which is still very much in the works (even though I had hoped to have it out in early January...). Right now the hardest part is getting the drawings I need for it done. 🙃

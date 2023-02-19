@@ -32,7 +32,7 @@
             background-color: $bg-secondary;
         }
         :global(h2) {
-            padding: .5rem 0 .5rem 0;
+            padding-bottom: .5rem 0 .5rem 0;
         }
         :global(h2)::before {
             font-style: normal;

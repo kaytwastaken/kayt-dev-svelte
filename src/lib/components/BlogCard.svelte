@@ -19,12 +19,13 @@
         margin: 1rem;
         padding: 1rem;
         border-radius: 1rem;
+        border: 2px solid $bg-tertiary;
         h1 {
             padding: 0;
         }
     }
     div:hover {
-        background-color: $bg-tertiary;
+        // background-color: $bg-tertiary;
         margin: .5rem;
         padding: 1.5rem;
     }

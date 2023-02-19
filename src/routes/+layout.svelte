@@ -6,4 +6,4 @@
 
 <Nav></Nav>
 <slot />
-<Footer></Footer>
+<!-- <Footer></Footer> -->

@@ -90,11 +90,22 @@ html {
 
 :global(body) {
 	background-color: $bg;
-	// line-height: 1.3rem;
+	line-height: 1.3rem;
+	padding-bottom: 1rem;
 }
 
 :global(a) {
 	color: $accent-main;
+}
+
+a {
+	* {
+		// color: $accent-main
+	}
+}
+
+:global(h1, h2, h3, h4, h5) {
+	padding-bottom: .5rem;
 }
 
 :global(em, b) {

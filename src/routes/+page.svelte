@@ -7,7 +7,7 @@
 <script>
 	export let data;
 	let { posts } = data;
-    let post = posts[0]
+    let latestPost = posts[0]
 </script>
 
 <div class="container">
@@ -39,9 +39,9 @@
         </div>
         <div>
             <h2>latest blog post</h2>
-            <a href=/blog/{post.postPath}><h3>{post.metadata.title}</h3></a>
-            <small>{post.metadata.excerpt}</small>
-            (<small>{post.metadata.date}</small>)
+            <a href=/blog/{latestPost.postPath}><h3>{latestPost.metadata.title}</h3></a>
+            <small>{latestPost.metadata.date}</small><br>
+            <small>{latestPost.metadata.excerpt}</small>
         </div>
     </div>
     <div class="sidebar">

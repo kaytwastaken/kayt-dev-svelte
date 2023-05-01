@@ -19,12 +19,11 @@
                 <b><small>she/they</small></b>
             </div>
         </span>
-        <!-- <p>you probably know me as kaytastrophe, kayt_was_taken, or another one of my derivative usernames, but you've found your way to my corner of the internet!</p> -->
     </div>
     <div class="me">
         <div>
             <h2>who am i?</h2>
-            <p>resident vtuber girlthing, programmer, artist</p>
+            <p>resident vtuber programmer artist girlthing</p>
         </div>
         <div>
             <h2>languages</h2>
@@ -40,7 +39,7 @@
         </div>
         <div>
             <h2>art</h2>
-            <p>i have a <a href="/portfolio">portfolio TODO</a></p>
+            <p>i have a <a href="/portfolio">portfolio</a>!</p>
             <br>
             <p><b>illustration</b>: krita</p>
             <p><b>photography</b>: lightroom, rawTherapee</p>
@@ -49,7 +48,8 @@
         <div>
             <h2>videos</h2>
             <p><a href="https://youtube.com/@kayt_was_taken">videos</a> sometimes</p>
-            <p><a href="https://twitch.tv/kayt_was_taken">streams</a> weekly</p>
+            <p><a href="https://twitch.tv/kayt_was_taken">streams</a> weekly*</p>
+            <small>*most of the time</small>
         </div>
         <div>
             <h2>latest blog post</h2>
@@ -63,7 +63,6 @@
         <a class="link" href="https://youtube.com/@kayt_was_taken">youtube</a>
         <a class="link" href="https://twitch.tv/kayt_was_taken">twitch</a>
         <a class="link" href="https://github.com/kaytwastaken">github</a>
-        <a class="link" href="/meta">how in the webbed site</a>
         <a href="https://en.wikipedia.org/wiki/Kill_la_Kill"><img src="https://media.tenor.com/IeeaaqOJKS4AAAAC/ryuko-matoi-kill-la-kill.gif" alt="" style="width:10rem"></a>
     </div>
     <div class="badges">
@@ -91,6 +90,7 @@
     @import "src/style/app.scss";
     .container {
         width: 50vw;
+        @include descending-width;
         margin-left: auto;
         margin-right: auto;
         
@@ -101,6 +101,13 @@
         'main main right'
         'badges badges badges';
 
+        @include sm-screen {
+            grid-template-areas: 
+            'header'
+            'main'
+            'right'
+            'badges';
+        }
         
 
         .header {
@@ -126,7 +133,6 @@
             display: flex;
             flex-direction: column;
             height: calc(100% - 2rem);
-            // width: min-content;
 
             .link, img {
                 padding: .5rem;

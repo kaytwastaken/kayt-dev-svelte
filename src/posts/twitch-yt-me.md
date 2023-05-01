@@ -8,12 +8,12 @@ archive: false
 Turns out I'm still alive, so what have I been doing in the time since I last wrote here?
 
 ## returning* to [twitch](https://twitch.tv/kayt_was_taken/about)!
-<img src="https://kayt.dev/static/images/twitch_about.png" alt="Screenshot of my bio on Twitch - it reads 'About Kayt_was_taken, dissociative loser that plays the vidya | it/ze/hir/she/they'" align="right" width="40%" style="margin-left:.5rem; border-radius: .5rem"/>
+<!-- <img src="https://kayt.dev/static/images/twitch_about.png" alt="Screenshot of my bio on Twitch - it reads 'About Kayt_was_taken, dissociative loser that plays the vidya | it/ze/hir/she/they'" align="right" width="40%" style="margin-left:.5rem; border-radius: .5rem"/> -->
 
 Last week (feb 5th) I streamed on twitch for the first time in a few months! I've done a few one-off streams since my last streak, but none of them were particularly interesting. This time however, I want to try to keep a longer streak going! Of course, being a student I'm not sure how consistent I'll really be able to be, but I say it's always worth a shot.
 
 ### becoming a VTuber!
-<img src="https://kayt.dev/static/images/vtube_pfp.png" alt="A profile picture made with my model" width="72" align="left" style="margin:1rem 1rem .5rem .5rem; border-radius: 40%"/>
+<img src="/images/kaytwaSmug.png" alt="A avatar of a red character with large fox-like ears" width="72" align="left" style="margin:1rem 1rem .5rem .5rem; border-radius: 40%"/>
 
 One of the more notable changes this time around is that I'm a vtuber now! Completely original I know, but it's fun so I don't care. I'm using [VSeeFace](vseeface.icu/) and a custom VRoid model - well, as custom as a VRoid can really be. Having said that I've [customised](https://youtube.com/shorts/QRks403ftr8?feature=share) it a little, and I'm taking the opportunity to learn some character modeling in Blender!
 
@@ -47,14 +47,10 @@ Taking a break from talking about myself, I thought I'd take a second to just ta
 ## happenings on [youtube](https://www.youtube.com/@kayt_was_taken)
 Moving on to the other nightmare video site, I've been having a ton of fun making content for YouTube! I picked up editing again when I started throwing together some osu! highlights ([one of which](https://youtu.be/QLu8hOD2m1U) did surprisingly well, nearly reaching 1000 views!), and I've planned out a few larger projects! The biggest of which is still very much in the works (even though I had hoped to have it out in early January...). Right now the hardest part is getting the drawings I need for it done. 🙃
 
-<blockquote><p lang="en">oh yea i do make art sometimes<br>peek of some of what i work on for video in future :) <br><img src="https://pbs.twimg.com/media/FowQBweaYAIpm4s?format=jpg&name=medium"/><br>&mdash; <a href="https://t.co/8uCVEAdxta">see the original post on twitter</a></p></blockquote>
+<blockquote><p lang="en">oh yea i do make art sometimes<br>peek of some of what i work on for video in future :) <br><img src="https://pbs.twimg.com/media/FowQBweaYAIpm4s?format=jpg&name=medium" alt="Three sketches of a character wearing a red jacket and a skirt. The third sketch is unfinished."/><br>&mdash; <a href="https://t.co/8uCVEAdxta">see the original post on twitter</a></p></blockquote>
 
 Other than that, I might start more uploading highlights from my streams, given I have the time to edit them.
 
-## me!
-Enough about all that though, how's the me? I'm not gonna tell you, cause that's weird. What I will say though is that gender is a scam and I go by [it/ze/hir/she/they](https://en.pronouns.page/@kayt_was_taken) now! :D
-
-neopronouns are pretty swag ngl
 
 anyway, drink water, ride public transit, and take time for your hobbies<br>
 i'll see you around somewhere sometime maybe

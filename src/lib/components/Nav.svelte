@@ -5,6 +5,7 @@
     <span>
         <a href="/">home</a>
         <a href="/blog">blog</a>
+        <a href="/portfolio">portfolio</a>
     </span>
 </nav>
 

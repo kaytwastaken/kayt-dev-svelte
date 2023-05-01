@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let post:any
+    export let post:any;
 </script>
 
 <div>

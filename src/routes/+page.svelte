@@ -66,7 +66,9 @@
         <a href="https://en.wikipedia.org/wiki/Kill_la_Kill"><img src="https://media.tenor.com/IeeaaqOJKS4AAAAC/ryuko-matoi-kill-la-kill.gif" alt="" style="width:10rem"></a>
     </div>
     <div class="badges">
-        <p>Made with <a href="https://kit.svelte.dev/">SvelteKit</a>, no sleep, and 🖤</p>
+        <span><p>Made with <a href="https://kit.svelte.dev/">SvelteKit</a>, no sleep, and 🖤</p></span>
+        <span>All content on this site is<a id="ai-badge" href="https://notbyai.fyi"><img src="/images/Written-By-Human-Not-By-AI-Badge-black.svg" alt="written by human, not by AI"></a></span>
+
         <!-- <ul>
             <a href="https://cyber.dabamos.de/88x31" target="_blank" rel="noreferrer"><li><img src="https://kayt.dev/static/88x31.gif" alt=""></li></a>
             <li><img src="https://kayt.dev/static/webpassion.gif" alt=""></li>
@@ -147,7 +149,18 @@
         .badges {
             grid-area: badges;
             display: flex;
+            align-items: center;
             justify-content: center;
+            span {
+                padding: 0 .5rem 0 .5rem;
+            }
+            span + span {
+                border-left: 2px solid $bg-tertiary;
+            }
+        }
+
+        #ai-badge img {
+            padding: .3rem 0 0 1rem;
         }
         
         div:not(.me, .name) {
@@ -170,11 +183,6 @@
         list-style: none;
         li {
             margin: .25rem;
-        }
-    }
-    span {
-        a {
-            margin-right: .5rem;
         }
     }
 </style>

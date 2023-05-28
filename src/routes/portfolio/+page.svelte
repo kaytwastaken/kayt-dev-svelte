@@ -18,6 +18,7 @@
             </svg>
             <p>this page is best viewed with firefox and the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Masonry_Layout">experimental masonry flag</a> enabled</p>
         </span>
+        <a id="ai-badge" href="https://notbyai.fyi"><img src="/images/Painted-By-Human-Not-By-AI-Badge-black.svg" alt="written by human, not by AI"></a>
     </div>
     <div class="posts">
         {#each posts as post}
@@ -54,6 +55,10 @@
                     fill: $accent-main;
                 }
             }
+        }
+
+        #ai-badge img {
+            padding: 1rem 0 .5rem 0;
         }
     }
 </style>

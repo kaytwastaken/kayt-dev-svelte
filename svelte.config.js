@@ -2,8 +2,11 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import { mdsvex } from 'mdsvex'
+import * as fs from 'fs';
 
-const dev = process.argv.includes('dev');
+const posts = fs.readdirSync('./src/posts').map(post => {
+	return '/blog/' + post.replace('.md', '')
+})
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -18,11 +21,11 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			strict: false,
+			strict: false
 		}),
 		prerender: {
-			entries: ['/rss']
-		}
+			entries: [...posts, '/rss']
+		},
 	},
 
 	extensions: ['.svelte', '.md'],

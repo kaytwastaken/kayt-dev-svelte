@@ -1,8 +1,0 @@
----
-title: filename is URL, this is content title
-date: '20yy-mm-dd'
-excerpt: shows under title on /blog
-archive: false
----
-
-## highest level header can only be h2

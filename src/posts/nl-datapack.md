@@ -17,7 +17,7 @@ Ok but wait, what are datapacks? Good question, they're kind of like plugins or 
 
 So what does it do? It adds lives to hardcore! It's heavily inspired by Grian's [Last Life]() series, so it replicated many of those features. I've written a much more detailed description of it over at [mc.kayt.dev](https://mc.kayt.dev/datapacks/new-life), but it adds a way of keeping track of, sharing, and gaining lives in a hardcore-like gamemode. More specifically, it was a way for me to get into command block scripting and Minecraft function notation.
 
-### the technical stuff
+<h3 id="the-technical-stuff">the technical stuff</h3>
 
 When I first saw Grian's various Life series, I wondered how hard it would be to replicate those mechanics with command blocks. So I did that, or at least most of it. In a few hours I threw together a chain of command blocks that would replicate the basic hardcore life system.
 

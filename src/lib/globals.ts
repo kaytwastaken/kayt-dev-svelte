@@ -1,7 +1,6 @@
-import { json } from "@sveltejs/kit"
-import type { Post } from '$lib/types'
+import type { Post } from './types'
 
-async function getPosts() {
+export async function getPosts() {
     let posts: Post[] = []
 
     const paths = import.meta.glob('/src/posts/*.md', { eager: true });
@@ -14,10 +13,11 @@ async function getPosts() {
         // and its an obj
         // and metadata exists in the file
         // and it has a slug
-        if (file && typeof file === 'object' && 'metadata' in file && slug) {
+        if (file && typeof file === 'object' && 'metadata' in file && 'default' in file && slug) {
             // process it accordingly
             const metadata = file.metadata as Omit<Post, 'slug'> // metadata IS a post BUT WITHOUT the slug param
-            const post = {...metadata, slug} satisfies Post // we can just say that `post` satisfies the Post object
+            const content = file.default
+            const post = {...metadata, slug, content} satisfies Post // we can just say that `post` satisfies the Post object
             post.archive == false && posts.push(post)
 
         }
@@ -26,9 +26,4 @@ async function getPosts() {
     }
 
     return posts
-}
-
-export async function GET() {
-    const posts = await getPosts()
-    return json(posts)
 }

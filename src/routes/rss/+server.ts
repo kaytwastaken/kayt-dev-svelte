@@ -1,12 +1,17 @@
 import type { Post } from '$lib/types'
+import { getPosts } from '$lib/globals'
 
-export async function GET({ fetch }) {
-	const response = await fetch('api/posts')
-	let posts: Post[] = await response.json()
-	posts = posts.slice(0, 10)
+export async function GET() {
+// export async function GET({ fetch }) {
+	// const response = await fetch('api/posts')
+	// let posts: Post[] = await response.json()
+	const posts: Post[] = await getPosts()
+	
+	// posts = posts.slice(0, 10)
 
 	const headers = { 'Content-Type': 'application/xml' }
 
+	
 	const xml = `
 		<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 			<channel>
@@ -19,7 +24,7 @@ export async function GET({ fetch }) {
 						(post) => `
 						<item>
 							<title>${post.title}</title>
-							<description>${post.default}</description>
+							<description><![CDATA[${post.content.render().html}]]></description>
 							<link>https://kayt.dev/blog/${post.slug}</link>
 							<guid isPermaLink="true">https://kayt.dev/blog/${post.slug}</guid>
 							<pubDate>${new Date(post.date).toUTCString()}</pubDate>

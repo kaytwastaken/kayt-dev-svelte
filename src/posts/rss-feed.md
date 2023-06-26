@@ -33,8 +33,13 @@ that on its own is helpful enough i suppose, though i would've liked to have kno
 
 i was able to at the very least get the xml to display properly by disabling Privacy Possum, but there's still an erroneous script tag that only shows up in firefox with my extensions turned on but I can't be bothered to figure out which one is causing the issue.
 
-it works fine in brave and on firefox on my phone so :shrug:
+it works fine in brave and firefox on my phone so :shrug:
 
-in the future, i think i would like to have the feed show the full content of the posts rather than just a description, but the way im currently serving posts doesnt easily lend itself to that.
+~~in the future, i think i would like to have the feed show the full content of the posts rather than just a description, but the way im currently serving posts doesnt easily lend itself to that.~~
+
+**EDIT: 2023-06-26<br>**
+IT WORKS !! the rss feed now loads the whole content of posts rather than forcing you to open the link to the page (thanks elly)
+
+i not particularly fond of how i fixed it, but hey it works and its not that bad.
 
 but aaaaaaaanyway, we finally got RSS and i'm pretty proud of myself for adding it :)<br>so thank you dear reader for perusing my ramblings, and i hope you have a wonderful day full of joyous delight and adequate hydration.

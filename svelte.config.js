@@ -20,12 +20,12 @@ const config = {
 		adapter: adapter({
 			strict: false,
 		}),
-		// paths: {
-		// 	base: dev ? '' : process.env.BASE_PATH
-		// }
+		prerender: {
+			entries: ['/rss']
+		}
 	},
 
-	extensions: ['.svelte', '.md']
+	extensions: ['.svelte', '.md'],
 };
 
 export default config;

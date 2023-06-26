@@ -1,13 +1,14 @@
 <script lang="ts">
-    export let post:any;
+    import type { Post } from '$lib/types'
+    export let post:Post;
 </script>
 
 <div>
-    <a href="/blog/{post.postPath}">
-        <h2>{post.metadata.title}</h2>
-        <small>published: {post.metadata.date}</small>
+    <a href="/blog/{post.slug}">
+        <h2>{post.title}</h2>
+        <small>published: {post.date}</small>
         <p></p>
-        <p>{post.metadata.excerpt ? post.metadata.excerpt : ""}</p>
+        <p>{post.excerpt ? post.excerpt : ""}</p>
     </a>
 </div>
 <style lang="scss">
@@ -22,6 +23,7 @@
         border: 2px solid $bg-tertiary;
         h1 {
             padding: 0;
+            line-height: 110%;
         }
     }
     div:hover {

@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>&#060;Kayt.dev/&#062;</title>
+    <title>&#060;kayt.dev/&#062;</title>
     <meta name="description" content="a place for all the things i do">
     <meta name="keywords" content="kayt,dev,webdev,js,ts,svelte,jamstack">
 </svelte:head>
@@ -8,6 +8,8 @@
 	export let data;
 	let { posts } = data;
     let latestPost = posts[0]
+
+    let number = Math.floor(Math.random()*2)
 </script>
 
 <div class="container">
@@ -16,7 +18,7 @@
             <img src="/images/kaytwaSmug.png" alt="" width="64" style="margin-right: 1rem; border-radius:99%">
             <div class="name">
                 <h1 id="top" style="padding: 0 !important; margin-top:.4rem;">hi! i'm kayt!</h1>
-                <b><small>she/they</small></b>
+                <b><small>she/they ⚧️</small></b>
             </div>
         </span>
     </div>
@@ -51,11 +53,12 @@
             <p><a href="https://twitch.tv/kayt_was_taken">streams</a> weekly*</p>
             <small>*most of the time</small>
         </div>
+        <!-- Latest post -->
         <div>
             <h2>latest blog post</h2>
-            <a href=/blog/{latestPost.postPath}><h3>{latestPost.metadata.title}</h3></a>
-            <small>{latestPost.metadata.date}</small><br>
-            <small>{latestPost.metadata.excerpt}</small>
+            <a href=/blog/{latestPost.slug}><h3>{latestPost.title}</h3></a>
+            <small>{latestPost.date}</small><br>
+            <small>{latestPost.excerpt}</small>
         </div>
     </div>
     <div class="sidebar">
@@ -63,7 +66,12 @@
         <a class="link" href="https://youtube.com/@kayt_was_taken">youtube</a>
         <a class="link" href="https://twitch.tv/kayt_was_taken">twitch</a>
         <a class="link" href="https://github.com/kaytwastaken">github</a>
-        <a href="https://en.wikipedia.org/wiki/Kill_la_Kill"><img src="https://media.tenor.com/IeeaaqOJKS4AAAAC/ryuko-matoi-kill-la-kill.gif" alt="" style="width:10rem"></a>
+        <a class="link" href="https://kayt.dev/rss">RSS feed</a>
+        {#if number == 0}
+            <a href="https://en.wikipedia.org/wiki/Kill_la_Kill"><img src="https://media.tenor.com/IeeaaqOJKS4AAAAC/ryuko-matoi-kill-la-kill.gif" alt="A looping gif of Ryuko Matio from the anime Kill La Kill looking towards the viewer while pink flower petals fall through frame."></a>
+        {:else if number == 1}
+            <a href="https://en.wikipedia.org/wiki/Otherside_Picnic"><img src="https://media.tenor.com/yGGSMt5Nih0AAAAC/otherside-picnic-urasekai-picnic.gif" alt="A looping gif of the characters Toriko Nishina and Sorawo Kamikoshi from the anime Otherside Picnic."></a>
+        {/if}
     </div>
     <div class="badges">
         <span><p>Made with <a href="https://kit.svelte.dev/">SvelteKit</a>, no sleep, and 🖤</p></span>
@@ -116,8 +124,8 @@
             grid-area: header;
         }
         .me {
-            height: calc(100%);
             grid-area: main;
+            // width: 100%;
 
             display: flex;
             flex-direction: column;
@@ -145,6 +153,9 @@
             .link:hover, img:hover {
                 background-color: $bg-tertiary;
             }
+            a > img {
+                width: 12rem;
+            }
         }
         .badges {
             grid-area: badges;
@@ -157,10 +168,23 @@
             span + span {
                 border-left: 2px solid $bg-tertiary;
             }
+            @include sm-screen {
+                flex-direction: column;
+                span {
+                    padding: .5rem 0 .5rem 0;
+                }
+                span + span {
+                    border-left: none;
+                    border-top: 2px solid $bg-tertiary;
+                }
+            }
         }
 
         #ai-badge img {
             padding: .3rem 0 0 1rem;
+            @include sm-screen {
+                padding: .1rem 0 0 0;
+            }
         }
         
         div:not(.me, .name) {

@@ -7,8 +7,9 @@
 <div class="container">
     <div>
         <h2>my blog!</h2>
-        <p>just my general musings whenever i (rarely) happen to write something</p>
-        <p>more posts in the <a href="/blog/archive">archive</a></p>
+        <p>my general musings whenever i (rarely) happen to write something</p>
+        <p>more (older and less good) posts in the <a href="/blog/archive">archive</a></p>
+        <a href="https://kayt.dev/rss">RSS</a>
     </div>
     <div class="posts">
         {#each posts as post}

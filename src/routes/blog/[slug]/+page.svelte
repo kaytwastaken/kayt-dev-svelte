@@ -34,8 +34,14 @@
             border-left: 2px solid $accent-main;
             background-color: $bg-secondary;
         }
+        :global(h1)::before {
+            font-style: normal;
+            content: "#";
+            margin-right: .5rem;
+            color: $bg-secondary;
+        }
         :global(h2) {
-            padding-bottom: .5rem 0 .5rem 0;
+            padding: .5rem 0 .5rem 0;
         }
         :global(h2)::before {
             font-style: normal;
@@ -44,7 +50,7 @@
             color: $bg-secondary;
         }
         :global(h3) {
-            padding: .5rem 0 .5rem 0;
+            padding: .75rem 0 .5rem 0;
         }
         :global(h3)::before {
             font-style: normal;

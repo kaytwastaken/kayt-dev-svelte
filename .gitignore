@@ -11,3 +11,7 @@ vite.config.ts.timestamp-*
 
 *.bat
 *.sh
+
+# post editing
+/src/posts/.obsidian
+/src/posts/*.txt

@@ -15,7 +15,7 @@
         <span>
             <img src="/images/kaytwaSmug.png" alt="" width="64" style="margin-right: 1rem; border-radius:99%">
             <div class="name">
-                <h1 style="padding: 0 !important; margin-top:.4rem;">hi! i'm kayt!</h1>
+                <h1 id="top" style="padding: 0 !important; margin-top:.4rem;">hi! i'm kayt!</h1>
                 <b><small>she/they</small></b>
             </div>
         </span>

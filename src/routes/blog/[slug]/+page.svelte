@@ -1,5 +1,6 @@
 <script lang="ts">
     export let data:any;
+    import Footer from '$lib/components/Footer.svelte'
 </script>
 
 <div class="container">
@@ -9,6 +10,8 @@
         <svelte:component this={data.content} />
     </div>
 </div>
+
+<Footer></Footer>
 
 <style lang="scss">
     @import "src/style/app.scss";

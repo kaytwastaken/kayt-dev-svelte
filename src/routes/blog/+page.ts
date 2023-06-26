@@ -1,31 +1,13 @@
-export function load() {
-    const imports = import.meta.glob('../../posts/*.md', { eager: true });
+import type { Post } from '$lib/types'
 
-    // console.log(imports)
-    const posts = []
-    for (const path in imports) {
-        const post = imports[path]
-        // @ts-ignore
-        // if not archived
-        if (! post.metadata.archive) {
-            // TODO fix type errors :')
-            // @ts-ignore
-            const metadata = post.metadata
-            const postPath = path.slice(12,-3)
-            posts.push({
-                metadata,
-                postPath
-            });
-        }
-        
-    }
+// { fetch } is very important here bc its telling svelte hey use 'superpowered fetch'
+// can resolve RELATIVE URLS
+// https://youtu.be/RhScu3uqGd0?t=2400
+export async function load({ fetch }) {
 
-    // console.log(posts)
 
-    posts.sort((a, b) => {
-        return new Date(b.metadata.date).getTime() - new Date(a.metadata.date).getTime()
-    })
-
-    return {posts}
+    const res = await fetch('/api/posts')
+    const posts: Post[] = await res.json()
+    return { posts }
 
 }

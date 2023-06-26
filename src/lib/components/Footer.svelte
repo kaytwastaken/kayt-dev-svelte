@@ -4,6 +4,7 @@
         <a href="https://pk.kayt.dev">pk.kayt.dev</a> -->
         <!-- <a href="/licenses">licenses + source</a> -->
         <span>made with svelte and 🖤</span>
+        <span><a href="https://kayt.dev/rss">RSS</a></span>
     </div>
 </footer>
 

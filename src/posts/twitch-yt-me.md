@@ -15,7 +15,7 @@ Last week (feb 5th) I streamed on twitch for the first time in a few months! I'v
 ### becoming a VTuber!
 <img src="/images/kaytwaSmug.png" alt="A avatar of a red character with large fox-like ears" width="72" align="left" style="margin:1rem 1rem .5rem .5rem; border-radius: 40%"/>
 
-One of the more notable changes this time around is that I'm a vtuber now! Completely original I know, but it's fun so I don't care. I'm using [VSeeFace](vseeface.icu/) and a custom VRoid model - well, as custom as a VRoid can really be. Having said that I've [customised](https://youtube.com/shorts/QRks403ftr8?feature=share) it a little, and I'm taking the opportunity to learn some character modeling in Blender!
+One of the more notable changes this time around is that I'm a vtuber now! Completely original I know, but it's fun so I don't care. I'm using [VSeeFace](https://vseeface.icu/) and a custom VRoid model - well, as custom as a VRoid can really be. Having said that I've [customised](https://youtube.com/shorts/QRks403ftr8?feature=share) it a little, and I'm taking the opportunity to learn some character modeling in Blender!
 
 <br>
 

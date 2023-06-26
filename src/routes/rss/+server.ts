@@ -1,6 +1,8 @@
 import type { Post } from '$lib/types'
 import { getPosts } from '$lib/globals'
 
+export const prerender = true
+
 export async function GET() {
 // export async function GET({ fetch }) {
 	// const response = await fetch('api/posts')

@@ -33,13 +33,16 @@
 
     .container {
         div {
-            width: 50vw;
+            width: 75vw;
             @include descending-width;
         }
         .posts {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: masonry;
+            @include lg-screen {
+                grid-template-columns: 1fr 1fr;
+            }
             @include sm-screen {
                 grid-template-columns: 1fr;
             }
@@ -54,6 +57,9 @@
                 path {
                     fill: $accent-main;
                 }
+            }
+            @include sm-screen {
+                display: none;
             }
         }
 

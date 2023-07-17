@@ -16,6 +16,6 @@ Now that it's July, I figure I should mention that I'm participating in Artfight
 i already have a list of characters i'd like to draw, and i've got another character to add to my [roster](https://artfight.net/~Kayt_was_taken/characters)!<br>
 currently ive got three characters, one of which you can see on my [portfolio](/portfolio) page! you can also see last year's attack there.
 
-for those also participating, i'm on team vampire! so if you wanna be on the same team as me, or you want to want to be my downfall, there you go!
+for those also participating, i'm on team vampire! so if you wanna be on the same team as me, or you want to want to be my downfall, go wild!
 
 anyway, i look forward to seeing what i can make this year and what get's made of my characters! make sure to follow me on [artfol](https://artfol.me/kayt_was_taken) as that's where i'll be sharing the finished pieces! and of course you can also check out my [artfight](https://artfight.net/~Kayt_was_taken) profile!

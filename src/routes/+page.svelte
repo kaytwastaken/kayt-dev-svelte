@@ -31,11 +31,12 @@
             <h2>languages</h2>
             <p>en_US 🇺🇸</p>
             <p>leren nl_NL 🇳🇱</p>
+            <p>lernen de_DE 🇩🇪</p>
         </div>
         <div>
             <h2>programming</h2>
-            <p><b>web</b>: svelte + typescript</p>
-            <p><b>node</b>: type + javascript</p>
+            <p><b>web</b>: svelte + TS</p>
+            <p><b>node</b>: TS + JS</p>
             <p><b>desktop</b>: python*</p>
             <small>*but only a little</small>
         </div>
@@ -45,26 +46,30 @@
             <br>
             <p><b>illustration</b>: krita</p>
             <p><b>photography</b>: lightroom, rawTherapee</p>
-            <p><b>vector</b>: affinity designer</p>
+            <p><b>vector</b>: affinity designer (ig im learning illustrastor now too)</p>
         </div>
         <div>
-            <h2>videos</h2>
+            <p>im too busy lol</p>
+            <s><h2>videos</h2>
             <p><a href="https://youtube.com/@kayt_was_taken">videos</a> sometimes</p>
             <p><a href="https://twitch.tv/kayt_was_taken">streams</a> weekly*</p>
-            <small>*most of the time</small>
-        </div>
-        <!-- Latest post -->
-        <div>
-            <h2>latest blog post</h2>
-            <a href=/blog/{latestPost.slug}><h3>{latestPost.title}</h3></a>
-            <small>{latestPost.date}</small><br>
-            <small>{latestPost.excerpt}</small>
-        </div>
+            <small>*most of the time</small></s>
+            </div>
     </div>
     <div class="sidebar">
-        <h3>things</h3>
+        <!-- <h3>things</h3> -->
+        <!-- Latest post -->
+        <a href="/blog/{latestPost.slug}" style="text-decoration: none;">
+            <div class="link">
+                <h2>latest blog post</h2>
+                <a href=/blog/{latestPost.slug}><h3>{latestPost.title}</h3></a>
+                <small>{latestPost.date}</small><br>
+                <small>{latestPost.excerpt}</small>
+            </div>
+        </a>
         <a class="link" href="https://youtube.com/@kayt_was_taken">youtube</a>
         <a class="link" href="https://twitch.tv/kayt_was_taken">twitch</a>
+        <a class="link" href="https://www.artfol.co/kayt_was_taken">artfol</a>
         <a class="link" href="https://github.com/kaytwastaken">github</a>
         <a class="link" href="https://kayt.dev/rss">RSS feed</a>
         {#if number == 0}
